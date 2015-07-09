@@ -1,0 +1,39 @@
+header, .elastic-container > header.full {
+  padding-top:20px;
+  padding-bottom:34px;
+  box-sizing: border-box;
+
+  h1, h1 a {
+    font-size:2.5rem;
+    font-weight: 600;
+    line-height:2.5rem;
+    color: $font-color;
+    text-decoration: none;
+    margin-bottom: 0px;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+
+  ul.menu {
+    display: inline-block;
+    float:right;
+    padding: 0px;
+    margin:0px;
+
+    li {
+      display: inline-block;
+      float:right;
+      padding:0px;
+      margin-left:20px;
+    }
+  }
+
+  p.blog-description {
+    margin-top:0px;
+    font-size:1.3rem;
+  }
+
+}

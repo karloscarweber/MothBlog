@@ -1,0 +1,23 @@
+{{!< moth}}
+
+    <div class="elastic-container">
+      <div class="full">
+        {{#foreach posts}}
+        <article class="{{post_class}}">
+          {{content}}
+
+          <p><a href="#">Read More &rarr;</a></p>
+        </article>
+        {{/foreach}}
+      </div>
+
+      <!-- Ghost page pagination for the index -->
+      {{pagination}}
+
+    </div>
+
+    <div class="elastic-container">
+      <div class="full">
+      <footer><p>Footer</p></footer>
+      </div>
+    </div>

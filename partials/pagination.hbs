@@ -1,0 +1,15 @@
+<div class="full">
+  <span class="page-number">Page {{page}} of {{pages}}</span>
+</div>
+<div class="elastic">
+  {{#if prev}}
+  <div class="nav">
+    <a href="{{page_url prev}}">&larr; Newer</a>
+  </div>
+  {{/if}}
+  {{#if next}}
+  <div class="nav">
+    <a href="{{page_url next}}">Older &rarr;</a>
+  </div>
+  {{/if}}
+</div>

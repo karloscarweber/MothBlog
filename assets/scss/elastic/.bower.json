@@ -1,0 +1,32 @@
+{
+  "name": "Elastic",
+  "version": "0.0.1",
+  "description": "Simple, responsive Grids.",
+  "main": "elastic.scss",
+  "keywords": [
+    "grid",
+    "responsive",
+    "elastic"
+  ],
+  "license": "MIT",
+  "authors": "Karl Oscar Weber <me@kow.fm>",
+  "homepage": "https://karloscarweber.github.io/Elastic",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/karloscarweber/Elastic.git"
+  },
+  "ignore": [
+    "node_modules",
+    "bower_components"
+  ],
+  "_release": "0.0.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.0.1",
+    "commit": "1f11aa652b6713e565cbfe0e8402428220ade551"
+  },
+  "_source": "git://github.com/karloscarweber/Elastic.git",
+  "_target": "~0.0.1",
+  "_originalSource": "elastic",
+  "_direct": true
+}
