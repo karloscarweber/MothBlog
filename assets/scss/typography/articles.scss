@@ -74,6 +74,31 @@ article {
 
   }
 
+
+  /* Lists */
+  ul, ol {
+    padding-left:20px;
+    margin:$type-margins;
+
+    li {
+      margin-bottom:5px;
+      display:list-item;
+    }
+    ul {
+      margin-bottom:0px;
+    }
+  }
+
+  ul li, ul {
+    list-style-type: circle;
+    list-style-position: inside;
+  }
+  ol li, ol {
+    list-style-type: decimal;
+    list-style-position: inside;
+  }
+
+
   /* Asides */
   aside {
     display:inline-block;
@@ -102,9 +127,27 @@ article {
     margin-bottom:1.5rem;
   }
 
-  /*the last element*/
+  .image-box {
+    width:100%;
+    display:block;
+    max-height: 300px;
+    overflow: hidden;
+    margin-bottom:1.5rem;
+    img {
+      width: 100%;
+      display: block;
+      margin-bottom:0rem;
+    }
+  }
 
-  & *:last-child {
+  /* Horizontal Rules */
+  hr {
+    border:1px solid $font-color;
+    margin:1rem 0rem;
+  }
+
+  /*the last element*/
+  & > *:last-child {
       margin-bottom:1.5rem;
   }
 

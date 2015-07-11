@@ -1,12 +1,16 @@
 {{!< moth}}
 
+  {{#is "tag"}}
+    {{> 'tag-header'}}
+  {{/is}}
+
     <div class="elastic-container">
       <div class="full">
         {{#foreach posts}}
         <article class="{{post_class}}">
-          {{content}}
-
-          <p><a href="#">Read More &rarr;</a></p>
+          {{> 'post-header'}}
+          <p>{{excerpt}}</p>
+          <p><a href="{{url}}">Read More &rarr;</a></p>
         </article>
         {{/foreach}}
       </div>

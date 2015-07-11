@@ -1,0 +1,11 @@
+<div class="elastic-container">
+  <header class="full">
+    <ul class="menu">
+      {{#foreach navigation}}
+        <li class="nav-{{slug}}{{#if current}} nav-current{{/if}}" role="presentation"><a href="{{url absolute="true"}}">{{label}}</a></li>
+      {{/foreach}}
+    </ul>
+    <h1><a href="{{@blog.url}}">{{@blog.title}}</a></h1>
+    <p class="blog-description">{{@blog.description}}</p>
+  </header>
+</div>

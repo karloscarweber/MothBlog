@@ -3,7 +3,7 @@
 html, body {
   padding:0px;
   margin:0px;
-  background-color:#FFFDF6;
+  background-color:#FAFAFA;
 }
 
 
@@ -12,10 +12,10 @@ $type-margins: 0rem 0rem 1rem 0rem;
 $link-color: #0000ff;
 $font-color: #000000;
 $date-color: #818181;
-$sans-font: 'noto-sans', helvetica, sans-serif;
-$serif-font: 'noto-serif', arial, serif;
+$sans-font: 'Noto Sans', helvetica, sans-serif;
+$serif-font: 'Noto Serif', arial, serif;
 
-h1, h2, h3, h4, h5, h6, p, span, blockquote, code {
+h1, h2, h3, h4, h5, h6, p, span, blockquote, li {
   display: block;
   font-family: $sans-font;
   font-size:16px;
