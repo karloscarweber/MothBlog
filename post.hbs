@@ -15,16 +15,16 @@
       </div>
 
       <div class="elastic">
-        {{#prev_post}}
-        <div class="nav">
-          <a href="{{page_url prev}}">&larr; Newer</a>
-        </div>
-        {{/prev_post}}
         {{#next_post}}
         <div class="nav">
-          <a href="{{page_url next}}">Older &rarr;</a>
+          <a href="{{url}}">&larr; Newer</a>
         </div>
         {{/next_post}}
+        {{#prev_post}}
+        <div class="nav">
+          <a href="{{url}}">Older &rarr;</a>
+        </div>
+        {{/prev_post}}
       </div>
 
     </div>
